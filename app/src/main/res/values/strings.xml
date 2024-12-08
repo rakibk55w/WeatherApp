@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="weatherapp_nat_your_aid">WeatherApp \nat your aid</string>
 </resources>
