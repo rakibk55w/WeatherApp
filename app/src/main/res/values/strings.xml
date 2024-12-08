@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="weatherapp_nat_your_aid">WeatherApp \nat your aid</string>
+    <string name="today">Today</string>
+    <string name="textview">TextView</string>
+    <string name="sunny">Sunny</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="day">Day</string>
+    <string name="date">Date</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="condition">Condition</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="pressure">Pressure</string>
 </resources>
