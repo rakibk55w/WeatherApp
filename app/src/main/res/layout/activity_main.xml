@@ -26,7 +26,7 @@
     </SearchView>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/locationTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -51,7 +51,7 @@
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/locationTextView" />
 
     <TextView
         android:id="@+id/temperatureTextView"
@@ -71,7 +71,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/locationTextView"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/sun" />
@@ -91,7 +91,7 @@
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/maxTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/merriweathersans_regular"
@@ -110,9 +110,9 @@
         android:text="@string/min"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintEnd_toEndOf="@+id/maxTextView"
+        app:layout_constraintStart_toStartOf="@+id/maxTextView"
+        app:layout_constraintTop_toBottomOf="@+id/maxTextView" />
 
     <TextView
         android:id="@+id/dayTextView"
